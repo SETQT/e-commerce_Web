@@ -1,0 +1,43 @@
+/* import Banner from '../assets/banner.jpg'; */
+
+body {
+    /* width: 100%; */
+}
+
+.header {
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 6px;
+    background-position-y: -287px;
+}
+
+.header .container {
+    display: flex;
+    max-width: 1358px
+}
+
+.header .container .textDetail {
+    flex: 2;
+    text-align: center;
+    color: rgba(62, 114, 55, 0.788);
+
+}
+
+.header .container .tech {
+    flex: 0.5;
+
+    background-size: cover;
+    background-position-x: -40px;
+    background-repeat: no-repeat;
+}
+
+.textDetail h1 {
+    display: block;
+    font-size: 2em;
+    font-family: sans-serif;
+    margin-block-start: 1.8em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+
+}
