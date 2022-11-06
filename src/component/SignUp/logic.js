@@ -1,7 +1,16 @@
 
 // import "../../css/signUpStyle.module.css"
+import * as ReactDOM from 'react-dom';
+import SignUp from "./SignUp";
 
 export default function customRegister() {
+
+    // const signUpButton = ReactDOM.findDOMNode(SignUp).getElementsByClassName('signUp');
+    // const signUpButton = document.querySelectorAll(["classname=signUp"])
+    // const signInButton = document.querySelectorAll(["classname=signIn"])
+    // const container = document.querySelectorAll(["classname=container"])
+    // const signInButton = ReactDOM.findDOMNode(SignUp).getElementsByClassName('signIn');
+    // const container = ReactDOM.findDOMNode(SignUp).getElementsByClassName('container');
 
     const signUpButton = document.getElementById('signUp');
     const signInButton = document.getElementById('signIn');
@@ -9,6 +18,8 @@ export default function customRegister() {
 
     signUpButton.addEventListener('click', () => {
         container.classList.add("rightPanelActive");
+        // container.classList.add.  .classList.toggle(("rightPanelActive");
+
     });
 
     signInButton.addEventListener('click', () => {

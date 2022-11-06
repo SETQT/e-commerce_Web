@@ -33,6 +33,11 @@ class SignUp extends Component {
         //not yet implement
 
     }
+    handleClick = event => {
+
+        event.currentTarget.classList.toggle('bg-salmon');
+
+    };
     async signIn() {
         let user = $('#user').val();
         let pass = $('#pass').val();
