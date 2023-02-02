@@ -1,10 +1,10 @@
 
 
-import Header from "../component/Header"
-import Navbar from "../component/Navbar"
+import Header from "../component/Header/Header"
+import Navbar from "../component/Navbar/Navbar"
 import About from "../component/About"
-import Footer from "../component/Footer"
-
+import Footer from "../component/Footer/Footer"
+import ListProduct from "../component/ListProduct/ListProduct"
 
 function Home() {
     return (
@@ -12,7 +12,8 @@ function Home() {
             <Header />
             <Navbar />
             <br /><br /><br /><br />
-            <About />
+            <ListProduct />
+            {/* <About /> */}
             <Footer />
         </>
     );

@@ -1,20 +1,16 @@
 
-import '../css/footerStyle.css'
-import Logo from '../assets/logo.png'
-
-// <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
-// <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-// <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+import '../../css/footerStyle.css'
+import Logo from '../../assets/logo.png'
 
 
-// <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
 function Footer() {
   return (
     <>
       {/* <div className='footer'> */}
       <footer id="dk-footer" className="dk-footer">
-        <div className="container">
+        <div >
+          {/* <div className="container"> */}
           <div className="row">
             <div className="col-md-12 col-lg-4">
               <div className="dk-footer-box-info">

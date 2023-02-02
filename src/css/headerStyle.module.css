@@ -1,30 +1,30 @@
 /* import Banner from '../assets/banner.jpg'; */
 
-body {
+/* body {
     /* width: 100%; */
-}
-
+/* } */
 .header {
     background-image: url('../assets/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 6px;
     background-position-y: -287px;
+    width: 100%;
 }
 
-.header .container {
+.container {
     display: flex;
-    max-width: 1358px
+    max-width: 100%;
 }
 
-.header .container .textDetail {
+.textDetail {
     flex: 2;
     text-align: center;
     color: rgba(62, 114, 55, 0.788);
 
 }
 
-.header .container .tech {
+.tech {
     flex: 0.5;
 
     background-size: cover;

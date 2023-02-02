@@ -1,7 +1,7 @@
 
 
-import LOGO from '../assets/logo.png'
-import style from '../css/headerStyle.module.css'
+import LOGO from '../../assets/logo.png'
+import style from '../../css/headerStyle.module.css'
 
 
 function Header() {
